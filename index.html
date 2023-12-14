@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>my app</title>
+	<link rel="stylesheet" type="text/css" href="boot.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row col-md-6 col-mid-offset-3">
+			<div class="panel panel-primary">
+				<div class="panel-heading text-center">
+					<h1>STUDENT ASSOCIATION IN UGANDA REGISTRATION</h1>
+				</div>
+				<div class="panel-body">
+					<form action="hiden.php" method="post">
+						<div class="form-group">
+							<span id="check-fullname"></span>
+							<label for="fullname">Full Name:</label>
+							<input type="text" class="form-control" id="fullname" placeholder="miniscule exp: ansum mahmoud" oninput="checkFullname()" name="fullname" required>
+						</div>
+						<div class="form-group">
+							<label for="village">Village:</label>
+							<input type="text" list="Browser" class="form-control" id="village" placeholder="village region(île) exp: nioumadzaha mbadjini(ngazidja)" name="village" required>
+							<datalist id="Browser">
+								<option value="dzwadjouwou">
+								<option value="famare">
+								<option value="kandzile">
+								<option value="ndzouani">
+								<option value="simboussa">
+								<option value="dzahadjouwou">
+								<option value="foumbouni">
+								<option value="mvouni">
+								<option value="chouwani">
+								<option value="panda">
+								<option value="mkazi">
+								<option value="mbabani">
+								<option value="itsoudzouwou">
+								<option value="sidjouwou">
+								<option value="mtsanga djouwou">
+								<option value="mavingouni">
+								<option value="makorani">
+								<option value="ntsorale">
+								<option value="bangwa">
+								<option value="dembeni">
+								<option value="idjwadrwadja">
+								<option value="mde">
+								<option value="mdjwayezi">
+								<option value="darsalama">
+								<option value="idjikoundzi">
+								<option value="iconi">
+								<option value="seleya">
+								<option value="ouziwani">
+								<option value="rehemani">
+								<option value="vouvouni">
+								<option value="mitsoudje">
+								<option value="domoni">
+								<option value="mirereni">
+								<option value="mbachile">
+								<option value="salimani">
+								<option value="dzwadjouwou">
+								<option value="madjoma">
+								<option value="serehini">
+								<option value="nkomiyoni">
+								<option value="famare">
+								<option value="mwadzaza djoumbe">
+								<option value="djoumwachongo">
+								<option value="kandzile">
+								<option value="mwadzaza mbwani	">
+								<option value="tsahadjouwou">
+								<option value="ndzouani">
+								<option value="bweni">
+								<option value="singani">
+								<option value="simboussa">
+								<option value="mboude">
+								<option value="dzahadjouwou">
+								<option value="mbouda djouwou">
+								<option value="foumbouni">
+								<option value="male">
+								<option value="ifounde cha djouwou">
+								<option value="ifounde cha mbwani">
+								<option value="ngnambeni">
+								<option value="didjoni">
+								<option value="ouroveni">
+								<option value="chindini">
+								<option value="mdjedjeni">
+								<option value="tsinimwampanga">
+								<option value="ngoumamilima">
+								<option value="miradou">
+								<option value="nioumadzaha">
+								<option value="mbadamadji doumba">
+								<option value="mohoro">
+								<option value="mbadamadji kwoubwani">
+								<option value="mboude">
+								<option value="mlali">						
+								<option value="inane">
+								<option value="mlimani">
+								<option value="kopve">
+								<option value="pidjani">
+								<option value="tsinimoichongo">
+								<option value="mlali">
+							</datalist>
+						</div>
+						<div class="form-group">
+							<label for="phonenumber">Phone number:</label>
+							<input type="number" class="form-control" id="phonenumber" placeholder="numero de watsapp exp: +256705777101" name="phonenumber" autocomplete="off">
+						</div>
+						<div class="form-group">
+							<label for="gender">Gender:</label>
+							<div>
+								<label for="male" class="radio-online">
+									<input type="radio" name="gender" value="m" id="male" required>Male
+								</label>
+								<label for="female" class="radio-online">
+									<input type="radio" name="gender" value="f" id="female" required>Female
+								</label>
+							</div>
+						</div>
+						<center>
+						<input type="submit" class="btn btn-primary" id="submit">
+					<a href="app.html" type="sumit" class="btbtn-primary" id="sumit"> cancel</a>
+						</center>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
